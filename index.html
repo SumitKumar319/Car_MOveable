@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- <div class="overlay">
+        <h1>
+               <span>Helloween</span>
+        </h1>
+    </div> -->
+
+    <canvas class="webgl"></canvas>
+
+    <div class="cursor"></div>
+    <div class="cursor-border"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.146.0/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.146.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <div class="main">
+
+        <div class="navbar">
+          <div class="logo">Logo</div>
+          <ul class="nav-links">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Products</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+          </ul>
+        </div>
+        
+        <!-- Rest of your webpage content goes here -->
+      
+        <div class="modal" >
+          <h1>3D Modal Here</h1>
+        </div>
+      
+      
+        <div class="about">
+          <h3>About Product</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere diam eros, sit amet malesuada est finibus nec. Curabitur ex arcu, dapibus euismod enim in, rhoncus congue nunc. Praesent varius lobortis metus in dignissim. Integer pretium ultrices velit, rutrum rutrum purus. Aenean blandit ipsum ac consectetur placerat. Integer nisl nisl, luctus vitae lectus a, dignissim maximus urna. Duis tellus ex, imperdiet eu metus a, pellentesque congue orci. Sed molestie, metus a sodales consectetur, augue nibh viverra dui, nec fringilla magna ante ac diam. Suspendisse vitae ultricies libero. Duis lobortis quam iaculis, gravida ante eget, hendrerit mi.</p>
+          <p>Aliquam a lectus eu orci porttitor congue. Nulla facilisi. Aenean tellus justo, pulvinar id mauris blandit, eleifend dictum sem. Pellentesque dolor ipsum, iaculis id dictum et, interdum et neque. Sed sed rutrum dui. Cras velit lorem, lobortis in volutpat nec, interdum vitae lorem. Vestibulum eget lorem metus. Mauris ultricies est nunc, ac dignissim ipsum dictum quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam pulvinar tempor nulla, elementum ultricies erat fermentum ut. Donec viverra dui vel arcu vestibulum, vel maximus nulla tincidunt. Quisque quis neque justo. In hac habitasse platea dictumst.</p>
+        </div>
+      
+        <div class="specifi">
+          <h3>Specifications</h3>
+          <table>
+            <tr>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+            <tr>
+              <td>Row 1, Column 1</td>
+              <td>Row 1, Column 2</td>
+            </tr>
+            <tr>
+              <td>Row 2, Column 1</td>
+              <td>Row 2, Column 2</td>
+            </tr>
+            <tr>
+              <td>Row 3, Column 1</td>
+              <td>Row 3, Column 2</td>
+            </tr>
+            <tr>
+              <td>Row 4, Column 1</td>
+              <td>Row 4, Column 2</td>
+            </tr>
+            <tr>
+              <td>Row 5, Column 1</td>
+              <td>Row 5, Column 2</td>
+            </tr>
+          </table>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img src="1robo.jpg" alt="Image">
+          </div>
+          <div class="column">
+            <h2>Remote Operating</h2>
+            <p>Ut dolor nulla, placerat eget vestibulum sit amet, tempus ut velit. Duis sodales elit et rutrum mollis. Ut consequat ligula id posuere egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam vel ipsum erat. Pellentesque mattis commodo orci nec bibendum. Nulla vitae mi vel dui malesuada posuere ut a diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla id suscipit lacus. Vestibulum in velit urna. Sed eu ex eu felis placerat pretium. Mauris malesuada molestie ipsum consectetur congue. Praesent aliquet mollis diam, quis molestie ligula facilisis non. Sed euismod mauris id vehicula maximus.</p>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <h2>Remote Operating</h2>
+            <p>Ut dolor nulla, placerat eget vestibulum sit amet, tempus ut velit. Duis sodales elit et rutrum mollis. Ut consequat ligula id posuere egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam vel ipsum erat. Pellentesque mattis commodo orci nec bibendum. Nulla vitae mi vel dui malesuada posuere ut a diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla id suscipit lacus. Vestibulum in velit urna. Sed eu ex eu felis placerat pretium. Mauris malesuada molestie ipsum consectetur congue. Praesent aliquet mollis diam, quis molestie ligula facilisis non. Sed euismod mauris id vehicula maximus.</p>
+          </div>
+          <div class="column">
+            <img src="1robo.jpg" alt="Image">
+          </div>
+      
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img src="1robo.jpg" alt="Image">
+          </div>
+          <div class="column">
+            <h2>Remote Operating</h2>
+            <p>Ut dolor nulla, placerat eget vestibulum sit amet, tempus ut velit. Duis sodales elit et rutrum mollis. Ut consequat ligula id posuere egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam vel ipsum erat. Pellentesque mattis commodo orci nec bibendum. Nulla vitae mi vel dui malesuada posuere ut a diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla id suscipit lacus. Vestibulum in velit urna. Sed eu ex eu felis placerat pretium. Mauris malesuada molestie ipsum consectetur congue. Praesent aliquet mollis diam, quis molestie ligula facilisis non. Sed euismod mauris id vehicula maximus.</p>
+          </div>
+        </div>
+      
+       
+      </div>
+      
+      <div class="end">
+        <div class="end1"></div>
+      </div>
+      
+      
+</body>
+
+</html>
